@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="UserName" value="Admin"/>
+  <parameter name="User" value="Adalwin49"/>
+  <parameter name="Pass" value="asdf1234"/>
+  <parameter name="FirstName" value="Saai"/>
+  <parameter name="NewsFeed" value="I Love OrangeHRM"/>
+  <parameter name="RoleValue" value="admin"/>
+  <parameter name="LastName" value="Uvan"/>
+  <parameter name="StatusValue" value="enable"/>
+  <parameter name="ConPass" value="asdf1234"/>
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+  <parameter name="Password" value="admin123"/>
+  <parameter name="Name" value="odis"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="orangeHRMS.TestScript">
+        <methods>
+          <include name="addingPIMUser"/>
+          <include name="tearout"/>
+          <include name="browserClosing"/>
+          <include name="browserInitialization"/>
+          <include name="addingBuzzNewsFeed"/>
+          <include name="enteringLoginCredentials" invocation-numbers="0"/>
+          <include name="addingAdminUser"/>
+        </methods>
+      </class> <!-- orangeHRMS.TestScript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

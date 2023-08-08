@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+
+<parameter name="UserName" value="Admin"/>
+<parameter name="Password" value="admin123"/>
+
+<parameter name="Name" value="odis"/>
+<parameter name="User" value="Adalwin49"/>
+<parameter name="RoleValue" value="admin"/>
+<parameter name="StatusValue" value="enable"/>
+<parameter name="Pass" value="asdf1234"/>
+<parameter name="ConPass" value="asdf1234"/>
+
+<parameter name="FirstName" value="Saai"/>
+<parameter name="LastName" value="Uvan"/>
+
+<parameter name="NewsFeed" value="I Love OrangeHRM"/>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="orangeHRMS.TestScript"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

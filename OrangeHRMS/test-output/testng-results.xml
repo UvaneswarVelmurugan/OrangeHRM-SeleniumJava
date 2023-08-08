@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-27T13:22:38 IST" name="Suite" finished-at="2023-07-27T13:23:28 IST" duration-ms="50006">
+    <groups>
+    </groups>
+    <test started-at="2023-07-27T13:22:38 IST" name="Test" finished-at="2023-07-27T13:23:28 IST" duration-ms="50006">
+      <class name="orangeHRMS.TestScript">
+        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:22:38 IST" name="browserInitialization" finished-at="2023-07-27T13:22:40 IST" duration-ms="2560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="applicationInitialization(java.lang.String)[pri:1, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:22:40 IST" name="applicationInitialization" finished-at="2023-07-27T13:22:57 IST" duration-ms="17019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationInitialization -->
+        <test-method is-config="true" signature="tearout(org.testng.ITestResult)[pri:0, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:22:57 IST" name="tearout" finished-at="2023-07-27T13:22:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=applicationInitialization status=SUCCESS method=TestScript.applicationInitialization(java.lang.String)[pri:1, instance:orangeHRMS.TestScript@65c7a252] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearout -->
+        <test-method signature="enteringLoginCredentials(java.lang.String,java.lang.String)[pri:2, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:22:57 IST" name="enteringLoginCredentials" finished-at="2023-07-27T13:22:59 IST" duration-ms="1654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringLoginCredentials -->
+        <test-method is-config="true" signature="tearout(org.testng.ITestResult)[pri:0, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:22:59 IST" name="tearout" finished-at="2023-07-27T13:22:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enteringLoginCredentials status=SUCCESS method=TestScript.enteringLoginCredentials(java.lang.String,java.lang.String)[pri:2, instance:orangeHRMS.TestScript@65c7a252] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearout -->
+        <test-method signature="addingAdminUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:22:59 IST" name="addingAdminUser" finished-at="2023-07-27T13:23:15 IST" duration-ms="16269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[odis]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adalwin49]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[enable]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[asdf1234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[asdf1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingAdminUser -->
+        <test-method is-config="true" signature="tearout(org.testng.ITestResult)[pri:0, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:23:15 IST" name="tearout" finished-at="2023-07-27T13:23:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addingAdminUser status=SUCCESS method=TestScript.addingAdminUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:orangeHRMS.TestScript@65c7a252] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearout -->
+        <test-method signature="addingPIMUser(java.lang.String,java.lang.String)[pri:4, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:23:15 IST" name="addingPIMUser" finished-at="2023-07-27T13:23:24 IST" duration-ms="8907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Uvan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingPIMUser -->
+        <test-method is-config="true" signature="tearout(org.testng.ITestResult)[pri:0, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:23:24 IST" name="tearout" finished-at="2023-07-27T13:23:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addingPIMUser status=SUCCESS method=TestScript.addingPIMUser(java.lang.String,java.lang.String)[pri:4, instance:orangeHRMS.TestScript@65c7a252] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearout -->
+        <test-method signature="addingBuzzNewsFeed(java.lang.String)[pri:5, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:23:24 IST" name="addingBuzzNewsFeed" finished-at="2023-07-27T13:23:26 IST" duration-ms="2169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I Love OrangeHRM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingBuzzNewsFeed -->
+        <test-method is-config="true" signature="tearout(org.testng.ITestResult)[pri:0, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:23:26 IST" name="tearout" finished-at="2023-07-27T13:23:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addingBuzzNewsFeed status=SUCCESS method=TestScript.addingBuzzNewsFeed(java.lang.String)[pri:5, instance:orangeHRMS.TestScript@65c7a252] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearout -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:orangeHRMS.TestScript@65c7a252]" started-at="2023-07-27T13:23:26 IST" name="browserClosing" finished-at="2023-07-27T13:23:28 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+      </class> <!-- orangeHRMS.TestScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
